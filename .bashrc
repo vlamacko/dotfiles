@@ -113,4 +113,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
-alias config='/usr/bin/git --git-dir=/home/vlamacko/.cfg/ --work-tree=/home/vlamacko'
+alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
